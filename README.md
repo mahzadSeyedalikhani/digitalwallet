@@ -46,16 +46,16 @@ to create the desired number of wallet(s). I put the `curl` of it in bellow:
 }'`
 
 
-7. Also you can access more feature like: disable wallet, enable wallet, display user wallets.
+7. Also, you can access more feature like: disable wallet, enable wallet, display user wallets.
 
 8. There is a Walletransaction class, that handels 3 types of wallet Transactions. such as, cash-in, cash-ou and wallet transfer(wallet to walet) 
 
-9. Due to User Stroy and my system design, Cash-in and Cash-out transaction, have debit transaction.
+9. Due to the User stroy and my system design, Cash-in and Cash-out transaction, have debit transaction.
 So per these kind of requests (cash-in, cash-out) a debit transaction (withdraw, deposit) will happen and save. 
 
 10. Through the application, I had thrown some custome exceptions. you can find them in the "exception" package.
 
-11. Also I handle those custome exception in the "ExceptionHandling" class that exists in the "exception" package.
+11. Also I handle those custom exception in the "ExceptionHandling" class that exists in the "exception" package.
 
 12. To add more information in my ExceptionHandling class (for adding more clarity), I wrote an "Exception Model" class to manage the payload information.
 This class also exists in the "exception" package.

@@ -4,17 +4,13 @@ import com.digipay.digitalwallet.model.TransactionType;
 import com.digipay.digitalwallet.model.entity.DebitTransaction;
 import com.digipay.digitalwallet.model.entity.WalletTransaction;
 import com.digipay.digitalwallet.repository.DebitTransactionRepository;
-import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.ArgumentCaptor;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
-import org.mockito.Mockito;
 import org.mockito.junit.jupiter.MockitoExtension;
-
 import static org.assertj.core.api.Assertions.assertThat;
-import static org.junit.jupiter.api.Assertions.*;
 import static org.mockito.BDDMockito.given;
 import static org.mockito.Mockito.verify;
 
